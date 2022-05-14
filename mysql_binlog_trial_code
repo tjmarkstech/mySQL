@@ -6,6 +6,8 @@ SHOW VARIABLES LIKE 'log_bin';
 
 show databases;
 
+create schema if not exists mySchema;
+
 use mySchemas;
 
 create table if not exists employee (
